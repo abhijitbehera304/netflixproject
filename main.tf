@@ -12,3 +12,7 @@ tags = {
 Name = var.instance_names[count.index]
 }
 }
+
+variable "instance_names" {
+default = ["jenkins", "nexus", "tomcat-1", "tomcat-2"]
+}
